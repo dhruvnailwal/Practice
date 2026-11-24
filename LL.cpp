@@ -248,7 +248,7 @@ int main()
 
         dummy = dummy->next;
     }
-    
+
     while (temp1)
     {
         dummy->next = new Node(temp1->data);
@@ -262,11 +262,11 @@ int main()
         dummy = dummy->next;
     }
 
+    cout << "Am I updated?\n";
 
-    
     Node *temp = head->next;
 
-    cout<<"The merged List :- ";
+    cout << "The merged List :- ";
 
     while (temp)
     {
