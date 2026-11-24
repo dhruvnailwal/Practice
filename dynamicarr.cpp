@@ -10,7 +10,6 @@ class Dynamic_array
     int capacity;
 
     public:
-
     Dynamic_array(int c = 2)
     {
         capacity = c;
